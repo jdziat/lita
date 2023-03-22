@@ -230,8 +230,6 @@ module Lita
           )
           abort
         end
-        @server.min_threads = http_config.min_threads
-        @server.max_threads = http_config.max_threads
         @server.run
       end
 
